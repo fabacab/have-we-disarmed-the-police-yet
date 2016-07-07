@@ -22,7 +22,7 @@ date_default_timezone_set('America/New_York');
  */
 function number_of_police_killings () {
     $url = 'https://cdn.rawgit.com/washingtonpost/data-police-shootings/master/fatal-police-shootings-data.csv';
-    return count(file($url));
+    return count(file($url)) - 1; // don't count the header line
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
