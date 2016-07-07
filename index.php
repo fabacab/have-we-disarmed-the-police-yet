@@ -30,8 +30,24 @@ function number_of_police_killings () {
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <title>Have we disarmed the police?</title>
+    <meta name="description" content="Running total of police killings since January 1, 2015. More data is not the answer. Abolishing the police is.">
     <meta name="rating" content="ALL" />
     <meta name="robots" content="index,follow" />
+
+    <meta property="og:site_name" content="Have we disarmed the police yet?" />
+    <meta property="og:url" content="<?php print "https://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";?>" />
+    <meta property="og:title" content="Have we disarmed the police yet?" />
+    <meta property="og:description" content="Running total of police killings since January 1, 2015. More data is not the answer. Abolishing the police is." />
+    <meta property="og:image" content="police-violence-is-not-an-accident-all-cops-are-bastards.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@maymaymx">
+    <meta name="twitter:creator" content="@maymaymx">
+    <meta name="twitter:title" content="Have we disarmed the police yet?">
+    <meta name="twitter:description" content="Running total of police killings since January 1, 2015. More data is not the answer. Abolishing the police is.">
+    <meta name="twitter:image" content="<?php print "https://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}/../police-violence-is-not-an-accident-all-cops-are-bastards.jpg";?>">
+    <meta name="twitter:image:alt" content="Police violence is not an accident. All cops are bastards." />
+
 <style>
     html, body {
         border-width: 0;
